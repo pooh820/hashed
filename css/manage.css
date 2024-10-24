@@ -1,0 +1,62 @@
+body {
+	background-color: #EEE;
+}
+h2 {
+	float:left;	
+}
+.N1 {
+	float:left;
+	width:99%;
+	margin:0 0 2% 2%;
+}
+.N2{
+	float:left;
+	width:99%;
+	margin:0 0 2% 2%;
+}
+.N3{
+	float:left;
+	width:99%;
+        margin:0 0 2% 2%;	
+}
+.back{
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px 10px;
+    float:left;
+}
+.back2 {
+    color:black;
+    border: 2px solid #99BBFF;
+}
+.back2:hover {
+    background-color: #99BBFF;
+    color: white;
+}
+@media screen and (min-width:1000px){
+        .N1 {
+                float:left;
+                width:420px;
+                margin-top:3%;
+                margin-left:-50px;
+        }
+        .N2{
+                float:left;
+                width:1000px;
+                margin-left:1%;
+                margin-top:3%;
+        }
+        .N3{
+                float:left;
+                width:350px;
+                margin-left:1%;
+                margin-top:3%;
+        }
+}
+
